@@ -2,7 +2,7 @@ import React from "react";
 
 const CategoryCard = ({ title, image, linkText }) => {
   return (
-    <div className="bg-white rounded-md shadow-sm hover:shadow-md p-4 transition-transform duration-200 hover:scale-105 cursor-pointer">
+    <div className="bg-white cursor-pointer rounded-md shadow-sm hover:shadow-md p-4 transition-transform duration-200 hover:scale-105 cursor-pointer">
       <h2 className="text-lg font-semibold mb-3">{title}</h2>
       <img
         src={image}

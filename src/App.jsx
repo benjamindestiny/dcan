@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar.jsx";
 import HeroCarousel from "./components/HeroCarousel.jsx";
 import ShopByCategory from "./components/ShopByCategory.jsx";
+import BestSellers from "./components/BestSellers.jsx"
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Navbar />
       <HeroCarousel />
       <ShopByCategory />
+      <BestSellers />
     </div>
   );
 };
